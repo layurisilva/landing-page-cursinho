@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+  /* HEADER */
+
+header {
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    box-shadow: 0px 4px 30px -5px rgba(19, 39, 79, 0.25);
+    border-radius: 0px 0px 30px 30px;
+}
+
+.logo {
+    max-width:60px;
+    max-height:60px;
+    width: auto;
+    height: auto;
+}
+
+.login {
+    text-decoration: none;
+    color: white;
+    background-color: #0076D2;
+    padding: 10px 20px;
+    border: 1px solid #0076D2;
+    border-radius: 30px;
+}
+
+.login:hover {
+    text-decoration: none;
+    color: #0076D2;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid #0076D2;
+    transition: 0.5s ease-in;
+}
+
+/* CONTEUDO */
+
+main {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* BANNER */
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+}
+
+.principal-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 18% 0%;
+}
+
+.principal-escrito-titulo {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 35px;
+    text-align: center;
+    color: #13274F;
+    margin-bottom: 37px;
+}
+
+.principal-escrito-subtitulo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #13274F;
+    max-width: 80%;
+    margin-bottom: 37px;
+}
+
+.link-botao {
+    text-decoration: none;
+    background-color: #0076D2;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    padding: 10px 40px;   
+    border-radius: 26px;
+}
+
+.link-botao:hover {
+    background-color: white;
+    color: #0076D2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 26px;
+    border: 1px solid #0076D2;
+    text-decoration: none;
+    padding: 10px 40px;
+    transition: 0.5s ease-in;
+}
+
+.conteudo-principal-imagem-mulher {
+    max-width:192;
+    max-height:402px;
+    width: auto;
+    height: auto;
+    margin-top: 2%;
+}
+
+.conteudo-principal-imagem-homem {
+    max-width:192;
+    max-height:402px;
+    width: auto;
+    height: auto;
+    margin-top: 15%;
+}
+
+/* BENEFÍCIOS */
+
+.beneficios {
+    box-sizing: border-box;
+    padding: 3% 0%;
+}
+
+.beneficios-q {
+    max-width: 800px;
+    max-height: 356px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 30px rgba(52, 81, 137, 0.25);
+    border-radius: 30px;
+    margin: auto;
+}
+
+.beneficios-titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 53px;
+    text-align: center;
+    color: #13274F;
+    padding: 3% 0%;
+}
+
+.beneficio-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #13274F;
+
+}
+
+.beneficios-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 6%;
+    border-radius: 0px 0px 30px 30px;
+
+}
+
+.beneficio-imagem {
+    max-width: 114px;
+    max-height: 114px;
+    width: auto;
+    height: auto;
+    margin-bottom: 6%;
+}
+
+/* PLANOS SECUNDARIOS */
+
+.titulo-planos {
+    text-align: center;
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 53px;
+    text-align: center;
+    color: #13274F;
+    margin-top: 3%;
+}
+
+.planos-card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.plano-secundario-titulo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 3%;
+}
+   
+.plano-secundario-imagem {
+    max-width: 58px;
+    max-height: 58px;
+    width: auto;
+    height: auto;
+    margin-bottom: 3%;
+}
+
+.plano-secundario-preço{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 1%;
+}
+
+.plano-secundario-acesso{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 5%;
+}
+
+.plano-secundario-beneficios-inclusos{
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10%;
+}
+
+.plano-secundario-beneficios-nao-inclusos{
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #545454;
+}
+
+.plano-bronze {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5% 2%;
+    border-radius: 30px;
+    width: 270px;
+    height: 500px;
+    margin: 2%;
+    background: #FFFFFF;
+    box-shadow: -5px 5px 30px rgba(52, 81, 137, 0.25);
+}
+
+.plano-prata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5% 2%;
+    border-radius: 30px;
+    width: 270px;
+    height: 500px;
+    margin: 2%;
+    background: #FFFFFF;
+    box-shadow: -5px 5px 30px rgba(52, 81, 137, 0.25);
+}
+
+.botao-planos-secundario {
+    text-decoration: none;
+    padding: 5px 12px;
+    border: 1px solid #0076D2;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #0076D2;
+    margin-top: 5%;
+}
+
+
+.botao-planos-secundario:hover {
+    text-decoration: none;
+    padding: 5px 12px;
+    border: 1px solid #0076D2;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    background-color: #0076D2;
+    transition: 0.5s ease-in;
+}
+
+/* PRINCIPAL */
+
+.plano-ouro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 2%;
+    border-radius: 30px;
+    width: 304px;
+    height: 554px;
+    margin: 2%;
+    background-color: #0076D2;
+    box-shadow: 0px 0px 15px 5px rgba(52, 81, 137, 0.25);
+}
+
+.plano-principal-titulo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: white;
+    padding-bottom: 3%;
+    background-color: #0076D2;
+}
+   
+.plano-principal-imagem {
+    max-width: 60px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+    padding-bottom: 3%;
+    background-color: #0076D2;
+}
+
+.plano-principal-preço{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: white;
+    padding-bottom: 1%;
+    background-color: #0076D2;
+}
+
+.plano-principal-acesso{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+    background-color: #0076D2;
+}
+
+
+.plano-ouro-beneficios-inclusos{
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 10%;
+    color: white;
+}
+
+.botao-plano-principal {
+    text-decoration: none;
+    padding: 5px 12px;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    background-color: #0076D2;
+    margin-top: 5%;
+}
+
+
+.botao-plano-principal:hover {
+    text-decoration: none;
+    padding: 5px 12px;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color:#0076D2;
+    background-color: white;
+    transition: 0.5s ease-in;
+    margin-top: 5%;
+
+}
+
+/* GRADE */
+
+.grade {
+    text-align: center;
+    padding: 5%;
+}
+
+.grade-titulo {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    color: #13274F;
+    padding: 2%;
+}
+
+.grade-botao {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #0076D2;
+    background-color: white;
+    padding: 8px 30px;
+    border: 1px solid #0076D2;
+    border-radius: 30px;
+}
+
+.grade-botao:hover {
+    color: white;
+    background-color: #0076D2;
+    padding: 8px 30px;
+    border: 1px solid #0076D2;
+    border-radius: 30px;
+    transition: 0.5s ease-in;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #0076D2;
+    border-radius: 30px 30px 0px 0px;
+    padding: 2%;
+}
+
+.footer-links {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.redes-sociais-imagens{
+    max-width: 40px;
+    max-height: 40px;
+    padding: 2%;
+}
+
+/* RESPONSIVA */
+
+@media (max-width: 925px) {
+    
+    /* BANNER */
+
+.principal-escrito-titulo {
+    margin-bottom: 15px;
+}
+
+.principal-escrito-subtitulo {
+    margin-bottom: 20px;
+}
+
+.link-botao {
+    padding: 10px 20px;   
+}
+
+.link-botao:hover {
+    padding: 10px 20px;   
+}
+
+.conteudo-principal-imagem-mulher {
+    display: none;
+}
+
+.conteudo-principal-imagem-homem {
+    display: none;
+}
+
+/* BENEFÍCIOS */
+
+.beneficios-q {
+    max-width: 500px;
+    max-height: 256px;
+    width: auto;
+    height: auto;
+}
+
+.beneficios-titulo {
+    font-size: 20px;
+    padding: 3% 0%;
+}
+
+.beneficio-p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.beneficio-imagem {
+    max-width: 70x;
+    max-height: 70px;
+}
+
+/* PLANOS SECUNDARIOS */
+
+.planos-card {
+    flex-direction: column;
+}
+
+.plano-bronze {
+    padding: 6% 2%;
+    width: 304px;
+    margin: 2%;
+}
+
+.plano-prata {
+    padding: 6% 2%;
+    width: 304px;
+    margin: 2%;
+}
+
+/* PRINCIPAL */
+
+.plano-ouro {
+    padding:6% 2%;
+    width: 304px;
+    margin: 2%;
+}
+
+.plano-ouro-beneficios-inclusos{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* GRADE */
+
+.grade {
+    text-align: center;
+    padding: 5%;
+}
+
+.grade-titulo {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.grade-botao {
+    font-size: 11px;
+    padding: 5px 25px;
+}
+
+.grade-botao:hover {
+    padding: 5px 25px;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.footer-links {
+    font-size: 10px;
+}
+
+.redes-sociais-imagens{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+}
